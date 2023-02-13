@@ -11,6 +11,9 @@
      .hamburger-menu {
           display: none;
      }
+     .footer_input-box p{
+        display: none;
+     }
 }
 @media (max-width: 1000px) {
      .main_info__block_rectangle {
@@ -824,5 +827,17 @@
     .nav__footer li {
         font-size: 14px;
         width: 390px;
+    }
+    .footer_input-box p {
+        display: block;
+        font-family: 'Teko';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 53px;
+        text-transform: capitalize;
+        color: #ffffff;
+        padding-bottom: 10px;
+        
     }
 }
