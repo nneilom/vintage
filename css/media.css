@@ -550,6 +550,20 @@
 }
 
 @media (max-width: 390px) {
+     .menu__box {
+          display: block;
+          position: fixed;
+          top: 0;
+          left: -400px;
+          width: 80%;
+          height: 100%;
+          margin: 0;
+          padding: 80px;
+          list-style: none;
+          background-color: #141414;
+          box-shadow: 2px 2px 6px rgb(0 0 0 / 40%);
+          transition-duration: 0.25s;
+     }
      main {
           width: 390px;
           background-color: #ffffff;
