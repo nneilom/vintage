@@ -86,11 +86,18 @@
      .block_job__text p {
           font-size: 19px;
      }
-     block_job__container {
+     /* block_job__container {
           width: 80%;
+     } */
+     .job__news {
+          padding: 30px 10px 30px 0;
+          width: 370px;
      }
-     .job__news h3 {
-          font-size: 32px;
+     .block_job__news {
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          width: 370;
      }
      .new_subtitle-data {
           font-size: 13px;
@@ -112,6 +119,17 @@
      }
      .made {
           display: none;
+     }
+     .info_service__block-container {
+          margin: 0 50px;
+          justify-content: center;
+          justify-content: space-between;
+     }
+     .interier__category {
+          position: relative;
+          top: -50px;
+          display: flex;
+          justify-content: center;
      }
 }
 
@@ -153,6 +171,10 @@
      .block_job__section {
           width: 770px;
           height: 1000px;
+          background-color: #ebebeb;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
      }
      .block_job__text {
           width: 680px;
@@ -170,8 +192,8 @@
      .main_info__buttons {
           height: 130px;
           font-size: 20px;
-          padding-left: 30px;
-          padding-right: 30px;
+          padding-left: 20px;
+          padding-right: 20px;
           width: 600px;
      }
      .main_info__buttons button:first-child {
@@ -189,6 +211,10 @@
           letter-spacing: 2.975px;
           text-transform: uppercase;
           color: #99823d;
+     }
+     .info_service__block-container {
+          margin: 0 50px;
+          justify-content: center;
      }
 
      .block_job__num {
@@ -253,9 +279,9 @@
           width: 600px;
      }
      .info_service__block-container {
-          min-width: 700px;
+          min-width: 360px;
           max-width: 700px;
-          margin: 0 auto;
+          margin: 0;
           display: flex;
           align-items: center;
           justify-content: space-between;
@@ -458,9 +484,9 @@
           display: block;
           position: fixed;
           top: 0;
-          left: -100%;
-          width: 400px;
-          height: 400p;
+          left: -400px;
+          width: 50%;
+          height: 100%;
           margin: 0;
           padding: 80px;
           list-style: none;
@@ -518,4 +544,285 @@
           flex-direction: column;
           justify-content: space-between;
      }
+}
+
+@media (max-width: 390px) {
+     main {
+          width: 390px;
+          background-color: #ffffff;
+     }
+     .header__container {
+          width: 370px;
+     }
+     header {
+          width: 390px;
+     }
+     body {
+          width: 390px;
+          background-color: #ffffff;
+     }
+     .img__main {
+          display: none;
+     }
+
+     .main_info__text {
+          width: 370px;
+          padding: 0 5px 0 25px;
+          padding-top: 40px;
+     }
+     .main_info__text h1 {
+          font-size: 2.5em;
+     }
+
+     .main_info__block {
+          height: 470px;
+          position: absolute;
+          top: 80px;
+          left: -20px;
+          background-color: #ffffff;
+          width: 390px;
+          padding-left: 10px;
+     }
+     .main_info {
+          background-color: #ffffff;
+          /* /* width: 390px; */
+          /* padding: 5px;  */
+     }
+     .main_info__contaner {
+          width: 360px;
+          /* padding: 10px; */
+     }
+     .logo__nav {
+          position: absolute;
+          top: -65px;
+          right: 10px;
+          position: 60px;
+          padding: 0;
+     }
+     .logo__nav img {
+          width: 190px;
+          height: 80px;
+          padding: 0;
+     }
+
+     .main_info__buttons {
+          height: 170px;
+          font-size: 22px;
+          width: 350px;
+     }
+
+     .main_info__buttons button:first-child {
+          width: 370px;
+          padding: 30px 0 30px 0;
+     }
+     .main_info__buttons button:last-child {
+          width: 370px;
+          padding: 30px 0 30px 0;
+     }
+     .job__news h3 {
+          font-size: 30px;
+          width: 360px;
+     }
+     .job__news {
+          padding: 30px 0 30px 0;
+          width: 370px;
+     }
+     .main_info__text p {
+          font-size: 22px;
+          padding-bottom: 20px;
+          width: 360px;
+     }
+     .block_job__section {
+          padding-top: 50px;
+          width: 390px;
+          height: 940px;
+     }
+     .block_job__container {
+          width: 370px;
+     }
+     .block_job__text h2 {
+          font-size: 50px;
+          width: 360px;
+     }
+     .block_job__text p {
+          width: 360px;
+     }
+     .block_job__text {
+          width: 370px;
+          padding: 0;
+     }
+     .block_job__statistics-box {
+          display: flex;
+          align-items: center;
+          width: 360px;
+          flex-direction: column;
+          height: 450px;
+          padding: 100px 15px 0 15px;
+     }
+     .statistics-box {
+          height: 200px;
+     }
+     .block_job__container {
+          width: 360px;
+          padding: 10px;
+     }
+     .category__container {
+          width: 390px;
+          position: relative;
+          height: 1000px;
+          flex-direction: column;
+          align-items: center;
+          top: 500px;
+          left: 0;
+          padding: 0;
+     }
+     .category__container-card {
+          width: 360px;
+          position: relative;
+          height: 100px;
+          padding: 0;
+     }
+     .category__container-card img {
+          width: 360px;
+          padding: 0;
+     }
+     .title_category {
+          height: 70px;
+          width: 360px;
+          font-size: 25px;
+          top: 200px;
+     }
+     .text_category {
+          font-size: 12px;
+     }
+     .interier__category {
+          width: 390px;
+     }
+     .info_service__text {
+          font-size: 22px;
+          width: 350px;
+          align-items: start;
+          padding: 30px 0;
+     }
+
+     .info_service__block-box {
+          width: 360px;
+          padding: 50px 0 0 0;
+     }
+     .info_service__text h3 {
+          width: 360px;
+          text-align: start;
+          font-size: 40px;
+     }
+     .info_service__wrapper {
+          top: 700px;
+          padding: 50px 0 0 0;
+          width: 370px;
+          position: relative;
+     }
+     .info_service {
+          /* padding: 40px; */
+          margin: 0 15px;
+          min-width: 360px;
+          max-width: 390px;
+          padding: 0;
+     }
+     .info_service__block-container {
+          min-width: 340px;
+          max-width: 350px;
+          margin: 0;
+          padding: 0;
+          justify-content: start;
+     }
+     .info_service__wrapper button {
+          font-size: 16px;
+          padding: 35px 20px;
+          width: 360px;
+     }
+     .our-projects_wrapper {
+          width: 390px;
+     }
+     .our-projects {
+          width: 360px;
+     }
+     .projects_logo {
+          left: 0;
+          top: 0;
+          flex-wrap: wrap;
+          width: 360px;
+          height: 150px;
+          /* align-items: center; */
+          justify-content: space-around;
+          position: relative;
+     }
+     .footer__end {
+          display: none;
+     }
+
+     .footer__box {
+          flex-direction: column;
+          width: 390px;
+          height: 270px;
+          background-color: #3d3d3d;
+          position: absolute;
+          left: 0;
+          top: 240px;
+          justify-content: space-between;
+     }
+     .footer_input-box {
+          width: 360px;
+          background-color: #99823d;
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          padding: 15px;
+          top: 100px;
+          left: 0;
+     }
+     .footer_input {
+          width: 350px;
+          padding: 0;
+     }
+     .projects_logo {
+          display: none;
+     }
+     .nav__footer {
+          display: flex;
+          width: 360px;
+          flex-wrap: wrap;
+     }
+     .footer__end {
+          display: none;
+     }
+     .footer__box {
+          width: 390px;
+          display: block;
+          height: 450px;
+          background-color: #3d3d3d;
+          margin: 0;
+          position: absolute;
+          top: 240px;
+          z-index: 0;
+          padding: 0;
+     }
+     .our-projects_wrapper {
+          height: 100px;
+          position: relative;
+          top: 800px;
+          background-color: #99823d;
+     }
+     .nav__footer {
+        display: flex;
+        width: 360px;
+        flex-direction: column;
+        padding: 40px 0;
+    }
+    .logo__footer {
+        padding-top: 100px;
+        padding-left: 110px;
+    }
+    .nav__footer li {
+        font-size: 14px;
+        width: 390px;
+    }
 }

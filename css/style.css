@@ -208,6 +208,7 @@ main {
      display: flex;
      flex-direction: column;
      align-items: center;
+     height: 800px;
 }
 .block_job__container {
      display: flex;
@@ -337,7 +338,7 @@ main {
 /* card section */
 .interier__category {
      position: relative;
-     top: -150px;
+     top: -120px;
      display: flex;
      justify-content: center;
 }
@@ -418,7 +419,7 @@ main {
      display: flex;
      flex-wrap: wrap;
      align-items: center;
-     justify-content: space-between;
+     justify-content: space-evenly;
 }
 
 .info_service__text {
@@ -537,15 +538,14 @@ main {
      position: absolute;
      top: 240px;
      justify-content: space-between;
+     display: flex;
+     z-index: 0;
 }
 .logo__footer {
      padding-top: 70px;
      padding-left: 70px;
 }
-.footer__box {
-     display: flex;
-     z-index: 0;
-}
+
 .footer__box img {
 }
 .nav__footer {
@@ -651,3 +651,6 @@ main {
      text-transform: uppercase;
      color: rgba(255, 255, 255, 0.75);
 }
+
+/*  */
+
